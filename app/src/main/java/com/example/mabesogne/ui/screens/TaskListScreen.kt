@@ -10,7 +10,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.mabesogne.data.Task
 import com.example.mabesogne.ui.AppViewModelProvider
-import com.example.mabesogne.viewmodel.TaskModel
+import com.example.mabesogne.viewmodel.TaskViewModel
 
 @Composable
 fun TaskListScreen (viewModel:TaskViewModel = viewModel (factory = AppViewModelProvider.Factory)) {
@@ -34,3 +34,4 @@ fun TaskCard(task: Task) {
         }
     }
 }
+
