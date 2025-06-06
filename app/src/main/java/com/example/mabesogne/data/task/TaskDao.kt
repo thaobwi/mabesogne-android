@@ -1,4 +1,4 @@
-package com.example.mabesogne.data
+package com.example.mabesogne.data.task
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow

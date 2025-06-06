@@ -1,7 +1,7 @@
 package com.example.mabesogne.repository
 
-import com.example.mabesogne.data.Task
-import com.example.mabesogne.data.TaskDao
+import com.example.mabesogne.data.task.Task
+import com.example.mabesogne.data.task.TaskDao
 import kotlinx.coroutines.flow.Flow
 
 class TaskRepository(private val taskDao: TaskDao) {

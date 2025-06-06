@@ -1,11 +1,9 @@
 package com.example.mabesogne.viewmodel
 
-import androidx.compose.animation.rememberSplineBasedDecay
-import androidx.compose.foundation.relocation.BringIntoViewResponder
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.mabesogne.data.Task
+import com.example.mabesogne.data.task.Task
 import com.example.mabesogne.repository.TaskRepository
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow

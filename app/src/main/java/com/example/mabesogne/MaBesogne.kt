@@ -1,4 +1,4 @@
-package com.example.mabesogne.app
+package com.example.mabesogne
 
 import android.app.Application
 import com.example.mabesogne.ui.AppViewModelProvider
