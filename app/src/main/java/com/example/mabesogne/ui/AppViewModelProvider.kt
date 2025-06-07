@@ -8,9 +8,7 @@ import com.example.mabesogne.repository.AuthRepository
 import com.example.mabesogne.repository.AuthRepositoryImpl
 import com.example.mabesogne.repository.TaskRepository
 import com.example.mabesogne.viewmodel.AuthViewModel
-import com.example.mabesogne.viewmodel.AuthViewModelFactory
 import com.example.mabesogne.viewmodel.TaskViewModel
-import com.example.mabesogne.viewmodel.TaskViewModelFactory
 
 object AppViewModelProvider {
     lateinit var Factory: ViewModelProvider.Factory
